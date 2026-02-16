@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.btn {
+  min-height: 44px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .form-control,
+  .form-select,
+  .btn {
+    font-size: 1rem;
+  }
+
+  .mobile-stack > .col-md-6,
+  .mobile-stack > .col-md-4 {
+    width: 100%;
+  }
+}
